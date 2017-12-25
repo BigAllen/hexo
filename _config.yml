@@ -6,8 +6,8 @@
 title: BigAllen's Blog
 subtitle: 凡走過，留下痕跡~
 description:
-author: John Doe
-language:
+author: Big Allen
+language: 
 timezone:
 
 # URL
@@ -78,5 +78,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/BigAllen/BigAllen.github.io.git
+  #repository: https://github.com/BigAllen/BigAllen.github.io.git
+  repository: git@github.com:/BigAllen/BigAllen.github.io.git
   branch: master
