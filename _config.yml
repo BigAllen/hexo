@@ -8,6 +8,8 @@ subtitle: 凡走過，留下痕跡~
 description:
 author: Big Allen
 language: 
+- zh-tw
+- en
 timezone:
 
 # URL
@@ -34,8 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-#post_asset_folder: false
-post_asset_folder: true
+post_asset_folder: true # true: generate folder for post photo
 relative_link: false
 future: true
 highlight:
@@ -79,6 +80,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/BigAllen/BigAllen.github.io.git
-  #repository: git@github.com:/BigAllen/BigAllen.github.io.git
+  #repository: https://github.com/BigAllen/BigAllen.github.io.git
+  repository: git@github.com:/BigAllen/BigAllen.github.io.git
   branch: master
